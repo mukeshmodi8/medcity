@@ -17,7 +17,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:5173",
-      "https://medcity-frontend-1.onrender.com/"   // 👈 यहाँ अपना URL डालना
+      "https://medcity-frontend-1.onrender.com/"   
     ],
     credentials: true,
   })
