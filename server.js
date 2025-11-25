@@ -9,6 +9,10 @@ import galleryPageRoutes from "./routes/galleryPage.routes.js";
 import aboutPageRoutes from "./routes/aboutPage.routes.js"; // ✅ अब ये सही चलेगा
 
 const app = express();
+app.get("/", (req, res) => {
+  res.send("Medcity Backend is Live ✅");
+});
+
 
 const PORT = process.env.PORT || 5000;
 
